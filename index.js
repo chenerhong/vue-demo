@@ -4,7 +4,7 @@ new MyVue({
   data() {
     return {
       age: 20,
-      names: ['我', ['子默']],
+      names: ['我', ['zimo']],
       a: {
         b: {
           c:111
@@ -19,8 +19,7 @@ new MyVue({
       this.age = 22
       this.age = 23
       this.a.b.c = 33
-      // this.names.splice(1, 0, ['勇哥', ['子默', '迈克']])
-      this.names.push('勇哥')
+      this.names.push('yg')
     }, 1000)
   },
   // mounted() {
